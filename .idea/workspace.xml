@@ -4,9 +4,6 @@
     <list default="true" id="7878bf2b-9ecc-45b2-9055-0252fa90e36c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reservation/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Reservation" type="Python.DjangoServer" factoryName="Django server">
@@ -84,7 +81,9 @@
       <workItem from="1637562597310" duration="38000" />
       <workItem from="1637562750200" duration="9712000" />
       <workItem from="1637574480633" duration="681000" />
-      <workItem from="1637771671186" duration="7641000" />
+      <workItem from="1637771671186" duration="7755000" />
+      <workItem from="1638164426118" duration="320000" />
+      <workItem from="1638164761386" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1637573094050</created>
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637574906320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add all views.py">
+      <created>1637791416756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637791416756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,37 +121,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="add all views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all views.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637772306784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1637772306784" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1637574905536">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1637791414616">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1637574905536" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1637774495918">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1637791414616" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1638164461938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1637774495918" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1637774495918">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1638164461938" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1638164461938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1637774495918" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1637774495918">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1638164461938" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1638164461938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1637774495918" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1637774495918">
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1638164461938" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1638164461938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1637774495918" />
-    <state x="184" y="26" key="SettingsEditor" timestamp="1637774368874">
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1638164461938" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1638164795590">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1637774368874" />
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1638164795590" />
     <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1637574910935">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
